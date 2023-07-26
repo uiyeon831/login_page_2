@@ -71,7 +71,10 @@ body{
   width: 550px;
   height: 714px;
   background-color: white;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .Illustration{
   width: 746px;
@@ -84,4 +87,67 @@ body{
 .Illustration > img{
   width: 500px;
   height: 337.44px;
+}
+.Travalizer{
+  align-self: flex-start;
+  color: #355B3E;
+  display: flex;
+  align-items: center;
+}
+.Travalizer > img{
+  width: 48px;
+  height: 48px;
+}
+.Travalizer > span{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+.Artificial{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  color: #355B3E;
+}
+.Welcome{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #58745E;
+}
+.page2{
+  width: 422px;
+}
+.login{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  flex-direction: column;
+}
+.forgot{
+  align-self: flex-end;
+}
+.input > p:first-child{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #2F3D4C;
+}
+.checkbox{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #355B3E;
+}
+.or{
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #355B3E;
+}
+.facebook{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #355B3E;
 }
