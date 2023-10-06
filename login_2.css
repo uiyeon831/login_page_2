@@ -51,7 +51,7 @@ table {
 
 
 
-body{
+body {
   width: 100%;
   height: 100vh;
   background-color: #355B3E;
@@ -61,13 +61,16 @@ body{
   justify-content: center;
   align-items: center;
 }
-.loginpage{
+
+.loginpage {
   width: 1296px;
   height: 714px;
   display: flex;
   flex-direction: row;
+  
 }
-.page1{
+
+.page1 {
   width: 550px;
   height: 714px;
   background-color: white;
@@ -75,79 +78,190 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-radius: 24px 0 0 24px;
+
 }
-.Illustration{
+
+.page2 {
+  width: 422px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.Illustration {
   width: 746px;
   height: 714px;
   background-color: #F5DBC4;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0 24px 24px 0;
 }
-.Illustration > img{
+
+.Illustration > img {
   width: 500px;
   height: 337.44px;
 }
-.Travalizer{
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Travalizer {
   align-self: flex-start;
   color: #355B3E;
   display: flex;
   align-items: center;
+
+  gap: 16px;
 }
-.Travalizer > img{
+
+.Travalizer > img {
   width: 48px;
   height: 48px;
 }
-.Travalizer > span{
+
+.Travalizer > span {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 32px;
 }
-.Artificial{
+
+.Artificial {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 24px;
   color: #355B3E;
 }
-.Welcome{
+
+.Welcome {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #58745E;
 }
-.page2{
-  width: 422px;
-}
-.login{
+
+.login {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 24px;
   flex-direction: column;
 }
-.forgot{
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input input {
+  width: 406px;
+  height: 56px;
+  padding-left: 16px;
+  border-radius: 8px;
+  border: solid 1px #B8D6BF;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.password {
+  background-image: url(eyeoff.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.forgot {
   align-self: flex-end;
 }
-.input > p:first-child{
+
+.button {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.button input {
+  width: 199px;
+  height: 48px;
+  border: solid 1px #029664;;
+  border-radius: 8px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.loginbutton {
+  background-color: #029664;
+  color: white;
+}
+
+.signupbutton{
+  background-color: white;
+  color: #029664
+}
+
+.input > p:first-child {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #2F3D4C;
 }
-.checkbox{
+
+.checkbox {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #355B3E;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgot a {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #355B3E;
 }
-.or{
+
+.or {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #355B3E;
+  text-decoration: none;
 }
-.facebook{
+
+.loginwith {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.facebook {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.facebook a {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #355B3E;
+  text-decoration: none;
 }
+
+
